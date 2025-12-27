@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Opt-In Information - AskAndy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #374151;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            background: #f8f9fa;
+        }
+        .sms-content {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 3rem;
+        }
+        .sms-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        .sms-header h1 {
+            color: #333;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+        }
+        .sms-body {
+            line-height: 1.8;
+        }
+        .sms-body section {
+            margin-bottom: 2.5rem;
+        }
+        .sms-body h2 {
+            color: #1f2937;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0 0 1rem 0;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e7eb;
+        }
+        .sms-body section:first-of-type h2 {
+            border-top: none;
+            padding-top: 0;
+        }
+        .sms-body p {
+            margin: 0 0 1rem 0;
+            font-size: 1rem;
+        }
+        .sms-body strong {
+            color: #1f2937;
+            font-weight: 600;
+        }
+        .sms-body ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        .sms-body li {
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+        .sms-body a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        .sms-body a:hover {
+            text-decoration: underline;
+        }
+        .example-box {
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .example-box p {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            color: #1f2937;
+            font-size: 0.95rem;
+        }
+        .info-box {
+            background: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .info-box p {
+            margin: 0 0 0.5rem 0;
+        }
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+            .sms-content {
+                padding: 2rem 1.5rem;
+            }
+            .sms-header h1 {
+                font-size: 1.5rem;
+            }
+            .sms-body h2 {
+                font-size: 1.25rem;
+            }
+            .sms-body p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sms-content">
+        <div class="sms-header">
+            <h1>SMS Opt-In Information</h1>
+        </div>
+
+        <div class="sms-body">
+            <section>
+                <h2>Overview</h2>
+                <p>
+                    AskAndy provides a user-initiated SMS sharing feature that allows users to share conversation content with recipients of their choosing.
+                </p>
+            </section>
+
+            <section>
+                <h2>How SMS Consent Is Obtained</h2>
+                <p>
+                    If a recipient has not previously consented to receive SMS messages, the Service will send a single message requesting consent.
+                </p>
+                
+                <div class="example-box">
+                    <p><strong>Example consent request message:</strong></p>
+                    <p style="margin-top: 1rem;">
+                        You are receiving this message because a user of AskAndy would like to share a conversation with you. Reply YES to receive the message. Reply STOP to decline. Message and data rates may apply.
+                    </p>
+                </div>
+
+                <div class="info-box">
+                    <p><strong>Important:</strong> No conversation content is sent unless the recipient replies YES.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Opt-Out and Help</h2>
+                <ul>
+                    <li><strong>Reply STOP</strong> at any time to opt out</li>
+                    <li><strong>Reply HELP</strong> for assistance</li>
+                </ul>
+                <p style="margin-top: 1rem;">
+                    <strong>Message frequency varies.</strong> Message and data rates may apply.
+                </p>
+            </section>
+
+            <section>
+                <h2>Additional Information</h2>
+                <p>
+                    For more information about how we handle SMS data and your privacy, please review our 
+                    <a href="privacy-policy.html">Privacy Policy</a>.
+                </p>
+                <p>
+                    If you have questions about SMS sharing or need assistance, please contact us at:
+                </p>
+                <p>
+                    <strong>Andy Woods Ministries</strong><br>
+                    Email: support@andywoodsministries.org<br>
+                    Website: askandy.andywoodsministries.org
+                </p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
