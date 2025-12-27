@@ -89,6 +89,8 @@ The Service does not verify recipient identity and is not responsible for messag
 
 If you choose to share content via SMS, you consent to receive transactional text messages solely to complete the user-requested sharing action.
 
+If a recipient has not previously consented to receive SMS messages, the Service may send a single consent request message before delivering any shared content.
+
 Message frequency varies
 
 Message and data rates may apply
