@@ -69,7 +69,7 @@ No ownership rights are transferred to users of the Service.
 10. Privacy
 
 Your use of the Service is governed by our Privacy Policy, available at:
-https://github.com/aliveactivesharper/AskAndy-Legal/blob/main/privacy-policy.md
+https://aliveactivesharper.github.io/AskAndy-Legal/privacy-policy.html
 
 11. Message-Based Sharing (Email and SMS)
 
