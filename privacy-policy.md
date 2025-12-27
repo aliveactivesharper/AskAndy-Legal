@@ -16,6 +16,8 @@ We do not collect marketing data, behavioral profiles, or analytics related to S
 SMS messages are sent only at the explicit request of the user for the purpose of sharing conversation content with a recipient chosen by the user.
 Phone numbers are used solely to deliver the requested message and are not stored after delivery.
 
+In cases where a recipient has not previously consented to receive SMS messages, a single message may be sent solely to request consent. No conversation content is transmitted unless the recipient explicitly opts in.
+
 4. Use of Existing Conversation Data
 
 The content shared via SMS originates from conversation history already available to the user within the application. We do not create, modify, or retain new personal data as part of the SMS feature.
